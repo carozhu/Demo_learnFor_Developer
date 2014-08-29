@@ -74,6 +74,8 @@ public java.lang.String getInterfaceDescriptor()
 {
 return DESCRIPTOR;
 }
+//interface
+
 @Override public void performAction(com.cao.android.demos.binder.aidl.Rect1 rect) throws android.os.RemoteException
 {
 android.os.Parcel _data = android.os.Parcel.obtain();
@@ -98,5 +100,7 @@ _data.recycle();
 }
 static final int TRANSACTION_performAction = (android.os.IBinder.FIRST_CALL_TRANSACTION + 0);
 }
+//interface
+
 public void performAction(com.cao.android.demos.binder.aidl.Rect1 rect) throws android.os.RemoteException;
 }
